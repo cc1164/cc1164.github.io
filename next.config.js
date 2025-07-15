@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: '/'
+  assetPrefix: './', // ✅ Relative paths
 };
 
 module.exports = nextConfig;
